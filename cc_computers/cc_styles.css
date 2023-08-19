@@ -1,0 +1,131 @@
+
+
+
+
+/*==================================
+Layout design for home page
+====================================
+*/
+
+
+ul li {
+	display: table-cell;
+	width: 15%;
+	text-align: center;
+	margin-right: 2%;
+	border: none;
+	border-collapse: collapse;
+	}
+h2{
+	color: blue;
+}
+
+
+
+
+/*========================================
+Layout design for footer page
+==========================================
+*/
+
+footer {
+	text-align: center;
+	font-size: 0.6em;
+	margin-top: 4%;
+	border-top: 3px solid rgba(108, 122, 137,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	clear: both;
+	padding-bottom: 20px;
+}
+
+/*=======================================
+Layout design for header page
+=========================================
+*/
+
+header img {
+	float: none;
+	width: 96%;
+	margin: 2% 2% 0% 1%;
+}
+
+nav ul li {
+	display: table-cell;
+	width: 15%;
+	text-align: center;
+	margin-right: 2%;
+	border: thin solid rgba(127,96,17,1.00);
+	border-collapse: collapse;
+}
+nav {
+	display: table;
+	width: 96%;
+	margin: 0 auto;
+	float: none;
+}
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+nav ul li:last-of-type {
+	margin-right: 0%;
+}
+
+
+table tr td h1{
+	color: red;
+	font-family: 'Georgia';
+}
+
+table{
+	width: 100%;
+	border: 0;
+	
+}
+
+/*============================================
+ Layout design for contact page
+==============================================
+*/
+
+h3{
+	color: orange;
+	font-size: 2.5em;
+
+}
+
+
+
+
+/* =============================================
+	Desktop layout styles used by  devices
+	769px and larger.
+   =============================================
+*/
+
+@media only screen and (min-width: 769px) {
+html, body {
+	font-size: 20px;
+}
+
+html {
+	
+	background-color: rgb(135,206,235);
+	margin: 0px auto;
+}
+body {
+	width: 88.2%;
+	max-width: 900px;
+	padding-left: 3%;
+	padding-right: 3%;
+	margin: 0px auto auto auto;
+	clear: none;
+	float: none;
+	background-color: white;
+	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+}
+
+
+}
